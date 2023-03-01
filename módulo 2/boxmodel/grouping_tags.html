@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: brown;
+        }
+
+        header{
+            margin:10px 10px 30px 10px;
+            padding: 30px;            
+            background-color: lightgray;
+        }
+        
+        h1{
+            background-color: darkgrey;
+            padding: 15px;
+            margin-bottom: 30px;
+        }
+
+        nav{
+            text-align: center;
+            background-color: darkgrey;
+            padding: 15px;
+            box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.212);
+            border-radius: 0 20px;
+        }
+        
+        a{
+            margin-right: 30px;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        a:hover{          
+            text-decoration: underline;
+        }
+
+
+        .tecnologia{
+            background-color: lightgray;
+            margin:10px 10px 30px 10px;
+            padding: 30px; 
+        }
+
+        h2{
+            text-align: center;
+            margin-bottom: 1.5em;
+
+        }
+
+        .produtos{
+            background-color: lightgray;
+            margin:10px 10px 30px 10px;
+            padding: 30px;  
+        }
+
+        article p{
+            margin-bottom: 20px;
+            background-color: darkgrey;
+            padding: 10px;
+        }
+
+        footer{
+            background-color: lightgray;
+            margin:10px 10px 30px 10px;
+            padding: 30px; 
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Mexendo com Grouping tags</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Abour Us</a>
+            <a href="#">Help</a>
+        </nav>
+    </header>
+        <main>
+            <section class="tecnologia">
+                <article>
+                    <h2>Tecnologias do Front-end</h2>
+                    <p><strong>HTML5</strong>: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ex cum, officiis provident nam minus eveniet rem dicta harum enim eius velit dolore beatae fugiat corrupti totam! Magnam, assumenda necessitatibus!</p>
+                    <p><strong>CSS3</strong>: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ex cum, officiis provident nam minus eveniet rem dicta harum enim eius velit dolore beatae fugiat corrupti totam! Magnam, assumenda necessitatibus!</p>
+                    <p><strong>JavaScript</strong>: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ex cum, officiis provident nam minus eveniet rem dicta harum enim eius velit dolore beatae fugiat corrupti totam! Magnam, assumenda necessitatibus!</p>
+                </article>
+            </section>
+            <section class="produtos">
+                <article>
+                    <h2>Todos os produtos</h2>
+                    <p><strong>Produtos</strong>: Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae cum sint assumenda odit voluptas? Amet rerum sit, magnam nemo impedit illum veniam provident ratione, asperiores obcaecati debitis vel. Sequi, iste!</p>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright 2023 ©</p>
+        </footer>
+</body>
+</html>
