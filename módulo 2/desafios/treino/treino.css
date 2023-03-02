@@ -48,8 +48,7 @@ header h1{
 header p{
     text-align: center;
     font-size: 1.2em;
-    margin: auto;
-    width: 500px;
+    max-width: 500px;
 }
 
 header nav{
