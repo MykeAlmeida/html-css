@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-image: url(../imagens/wallpaper002.jpg);
-            background-color: black;
+            background: black url('../imagens/wallpaper002.jpg') no-repeat fixed center;
             background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
+
+        
+            /* Shorthand - background 
+                color > image > repeat > size > attachment.
+            */
         }
 
         /* Com o a propriedade cover, as imagens se adaptam, de acordo com o tamanho da tela do nosso site, sempre será mantida a visualização conforme a sua escolha no bg position, que no meu caso foi o center. */
 
 
-        /*  */
+        /* Vínculos com o nosso background:  */
 
         main{
             margin: auto;
-            width: 500px;
+            max-width: 70%;
             border: solid 3px blue;
             border-radius: 10px;
             padding: 15px;
