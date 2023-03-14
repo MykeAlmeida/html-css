@@ -50,7 +50,7 @@ main{
 
 main p{
     font-size: 3em;
-    margin: 50px 60% 200px 30px;
+    margin: 50px 0 200px 30px;
 }
 
 .segunda-estrofe{
@@ -58,12 +58,14 @@ main p{
     background-size: cover;
     color: white;
     padding: 25px;
+    box-shadow: inset 5px 5px 7px rgba(0, 0, 0, 0.384);
 }
 
 .segunda-estrofe p{
     background: rgba(0, 0, 0, 0.322);
     padding: 25px;
     margin-bottom: 50px;
+    margin-right: 45%;
 } 
 
 .quinta-estrofe{
@@ -79,6 +81,7 @@ main p{
     padding: 25px;
     margin-bottom: 50px;
     text-shadow: 1px 1px 1px black;
+    margin-right: 45%;
 } 
 
 footer{
