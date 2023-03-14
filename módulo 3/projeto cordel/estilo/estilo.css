@@ -10,6 +10,7 @@
 }
 
 html, body{
+    background-color: lightgray;
     min-height: 100vh;
 }
 
@@ -35,12 +36,12 @@ header p{
     padding-bottom: 50px;
 }
 
-header a{
+header a, footer a{
     color: white;
     font-weight: bold;
 }
 
-header a:hover{
+header a:hover, footer a:hover{
     text-decoration: underline;
 }
 
@@ -48,41 +49,22 @@ main{
     max-width: 100%;
 }
 
-main p{
-    font-size: 3em;
-    margin: 50px 0 200px 30px;
+section{
+    padding: 10vh 0 10vh 30px;
+    line-height: 2em;
 }
 
-.segunda-estrofe{
-    background: lightyellow url(../imagens/background001.jpg) no-repeat center right fixed;
-    background-size: cover;
+.normal{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.imagem p{
+    background-color: rgba(0, 0, 0, 0.151);
+    max-width: 400px;
+    padding: 10px;
     color: white;
-    padding: 25px;
-    box-shadow: inset 5px 5px 7px rgba(0, 0, 0, 0.384);
 }
-
-.segunda-estrofe p{
-    background: rgba(0, 0, 0, 0.322);
-    padding: 25px;
-    margin-bottom: 50px;
-    margin-right: 45%;
-} 
-
-.quinta-estrofe{
-    background: lightyellow url(../imagens/background002.jpg) no-repeat center right fixed;
-    background-size: cover;
-    color: white;
-    padding: 25px;
-    box-shadow: inset 5px 5px 7px rgba(0, 0, 0, 0.384);
-}
-
-.quinta-estrofe p{
-    background: rgba(0, 0, 0, 0.322);
-    padding: 25px;
-    margin-bottom: 50px;
-    text-shadow: 1px 1px 1px black;
-    margin-right: 45%;
-} 
 
 footer{
     text-align: center;
@@ -90,13 +72,4 @@ footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     color: white;
-}
-
-footer a{
-    color: white;
-    font-weight: bold;
-}
-
-footer a:hover{
-    text-decoration: underline;
 }
