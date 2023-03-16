@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura básica das tabelas</title>
+    <style>
+
+        body{
+            font-family: sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        td{
+            width: 400px;
+            padding: 10px;
+            border: solid 2px rgba(0, 0, 0, 0.404);
+        }
+
+        .linha{
+            background-color: red;
+        }
+
+        .dado{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Criando minha primeira estrutura</h1>
+    <table>
+        <tr class="linha">
+            <td>Flamengo</td>
+            <td>Corinthians</td>
+            <td class="dado">Palmeiras</td>
+            <td>Fluminense</td>
+        </tr>
+        <tr>
+            <td>Vasco</td>
+            <td>São Paulo</td>
+            <td>América-MG</td>
+            <td>Cruzeiro</td>
+        </tr>
+        <tr>
+            <td>Internacional</td>
+            <td>Grêmio</td>
+            <td>Ponte-Preta</td>
+            <td>Botagofo</td>
+        </tr>
+        <tr>
+            <td>Atlético-MG</td>
+            <td>Atlético-PR</td>
+            <td>Paraná</td>
+            <td>Goiás</td>
+        </tr>
+    </table>
+</body>
+</html>
