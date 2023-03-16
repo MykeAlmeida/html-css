@@ -16,7 +16,6 @@ html, body{
 
 body{
     font-family: 'Sriracha', Arial, sans-serif;
-    max-width: 100%;
 }
 
 header{
@@ -28,12 +27,13 @@ header{
 header h1{
     font-family: Passion One, Arial, Helvetica, sans-serif;
     padding-top: 50px;
-    font-size: 7em;
+    font-size: 10vw; 
     font-variant: small-caps;
 }
 
 header p{
     padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header a, footer a{
@@ -52,6 +52,11 @@ main{
 section{
     padding: 10vh 0 10vh 30px;
     line-height: 2em;
+    font-size: 3.5vw;
+}
+
+.estrofe-abaixo{
+    padding-top: 10vh;
 }
 
 .normal{
@@ -59,11 +64,26 @@ section{
     color: black;
 }
 
+.imagem{
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.795);
+}
+
 .imagem p{
-    background-color: rgba(0, 0, 0, 0.151);
-    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.411);
+    display: inline-block;
     padding: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+}
+
+.imagem-girassol{
+    background: url(../imagens/background001.jpg) gray no-repeat right center fixed;
+    background-size: cover;
+}
+
+.imagem-escrita{
+    background: url(../imagens/background002.jpg) gray no-repeat center center fixed; 
+    background-size: cover;
 }
 
 footer{
