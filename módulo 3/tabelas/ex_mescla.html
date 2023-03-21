@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: relative;
+        }
+
+        main{
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+        }
+
+        .table-align{
+            text-align: center;
+        }
+
+        table{
+            margin: 25px 0;
+            border-collapse: collapse;
+            width: 350px;
+        }
+
+        td{
+            border: solid 1px black;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="table-align">
+            <h1>Exercícios de Mesclagem de células</h1>
+            <caption>Mesclagem de Células (Exercícios)</caption>
+            <table>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td rowspan="2">3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td colspan="3">8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">10</td>
+                    <td colspan="2">11</td>
+                    <td rowspan="2">12</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>14</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <h2>Segundo exercício</h2>
+                <tr>
+                    <td colspan="4">A</td>
+                    <td rowspan="4">B</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">C</td>
+                    <td>D</td>
+                    <td>E</td>
+                    <td>F</td>
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <td>H</td>
+                    <td>I</td>
+                </tr>
+                <tr>
+                    <td>J</td>
+                    <td>L</td>
+                    <td>M</td>
+                </tr>
+                <tr>
+                    <td colspan="4">N</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>
+</html>

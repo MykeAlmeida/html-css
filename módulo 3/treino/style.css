@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+}
+
+body{
+    font-family: 'Sriracha', Arial, sans-serif;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5vh;
+}
+
+header h1{
+    font-family: 'Passion One';
+    font-size: 10vw;
+}
+
+header p, footer p{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header p a, footer p a{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+header p a:hover, footer p a:hover{
+    transition: .3s;
+    color: lightgray;
+}
+
+section{
+    padding: 10vh 0 10vh 30px;
+}
+
+section p{
+    font-size: 3.5vw;
+    line-height: 1.8em;
+}
+
+.imagem{
+    color: white;
+}
+
+.imagem p{
+    background: rgba(0, 0, 0, 0.39);
+    display: inline-block;
+    padding: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+}
+
+.imagem-girassol{
+    background: grey url(../projetocordel/imagens/background001.jpg) no-repeat right center fixed;
+    background-size: cover;
+}
+
+.imagem-escrita{
+    background: grey url(../projetocordel/imagens/background002.jpg) no-repeat right center fixed;
+    background-size: cover;
+}
+
+.estrofe-abaixo{
+    padding-top: 10vh;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
