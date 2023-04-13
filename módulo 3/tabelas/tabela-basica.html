@@ -24,7 +24,7 @@
             height: 400px;
         }
 
-        td{
+        td, th{
             padding: 10px;
             border: solid 2px rgba(0, 0, 0, 0.404);
             text-align: center;
@@ -44,9 +44,14 @@
 <body>
     <h1>Criando minha primeira estrutura</h1>
     <table>
+        <tr>
+            <th scope="col">Rio de Janeiro</th>
+            <th scope="colgroup" colspan="2">São Paulo</th>
+            <th scope="col">Rio de Janeiro</th>
+        </tr>
         <tr class="linha">
             <td>Flamengo</td>
-            <td>Corinthians</td>
+            <td class="dado" >Corinthians</td>
             <td class="dado">Palmeiras</td>
             <td>Fluminense</td>
         </tr>
