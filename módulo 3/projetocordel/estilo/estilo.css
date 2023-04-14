@@ -25,7 +25,7 @@ header{
 }
 
 header h1{
-    font-family: Passion One, Arial, Helvetica, sans-serif;
+    font-family: 'Passion One', Arial, Helvetica, sans-serif;
     padding-top: 50px;
     font-size: 10vw; 
     font-variant: small-caps;
@@ -53,10 +53,6 @@ section{
     padding: 10vh 0 10vh 30px;
     line-height: 2em;
     font-size: 3.5vw;
-}
-
-.estrofe-abaixo{
-    padding-top: 10vh;
 }
 
 .normal{
