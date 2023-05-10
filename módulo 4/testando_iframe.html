@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando alguns iframes</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            position: relative;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .iframe{
+            position: relative;
+            left: 50%;
+            display: block;
+        }
+    </style>
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <h1>iframe sem parâmentros dentro da tag</h1>
+
+    <iframe>
+        <!-- Automáticamente é aplicada uma caixa no navegador, porém, dessa forma não possui conteúdo algum. -->
+    </iframe>
+
+    <h2>iframe de um site liberado</h2>
+
+    <iframe class="iframe" src="https://www.cursoemvideo.com" frameborder="0" scolling="auto"></iframe>
+    <!-- Nesse outro iframe foi adicionado um site externo para ser "espelhado" dentro desse. Toda via, não são todos os sites que podem ser usados dessa forma, depende da permissão desta URL. -->
+</body>
+</html>
