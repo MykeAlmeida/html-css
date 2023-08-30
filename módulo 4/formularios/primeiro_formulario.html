@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Criando meu primeiro formulário pelo Curso em Video</h1>
+
+    <form action="formulario.php" autocomplete="off" method="post">
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" required placeholder="Digite aqui...">
+        </p>
+
+        <!-- Usaremos o Method POST quando os dados forem sensíveis, para não aparecerem direto na URL, dados ultrapassando 3000 bytes e para envio de mídias. -->
+
+        <p>
+            <label for="isobrenome">Sobrenome: </label>
+            <input type="text" name="sobrenome" id="isobrenome" required placeholder="Digite aqui...">
+        </p>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
