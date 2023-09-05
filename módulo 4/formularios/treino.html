@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino Formulário</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        form{
+            text-align: center;
+            border: solid 5px black;
+            position: absolute;
+            background-color: brown;
+            color: white;
+            left: 50%;
+            transform: translate(-50%);
+            padding: 20px;
+            border-radius: 25px;
+        }
+
+        div{
+            padding: 15px 5px;
+        }
+
+        #btn{
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Treinando Formulários</h1>
+    <form action="cadastro.php" autocomplete="off" method="post">
+        <div>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" required placeholder="Digite aqui..." size="10" maxlength="12" minlength="5">
+        </div>
+        <div>
+            <label for="isenha">Senha: </label>
+            <input type="password" name="senha" id="isenha" required placeholder="Digite aqui..." size="10" maxlength="12" minlength="8">
+        </div>
+        <div>
+            <input id="btn" type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
