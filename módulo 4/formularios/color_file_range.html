@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando cores, range e file</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        form{
+            padding: 15px;
+        }
+
+        legend{
+            font-size: 1.5em;
+        }
+        div input{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>  
+        <h1>Formulário</h1>
+
+        <form action="a.php" method="post">
+            <fieldset>
+                <legend>Usando Cores, Files e Range</legend>
+
+                <div>
+                    <label for="icor">Cor:</label>
+                    <input type="color" name="cor" id="icor" value="#ff0000">
+                </div>
+
+                <div>
+                    <label for="irange">Nível de Satisfação: </label>
+                    <input type="range" name="range" id="irange" min="1" max="5" value="1">
+                </div>
+
+                <div>
+                    <label for="ifoto">Defina a foto de perfil: </label>
+                    <input type="file" name="foto" id="ifoto">
+                </div>
+            </fieldset>
+        </form>
+</body>
+</html>
