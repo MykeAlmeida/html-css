@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        div{
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <div>
+            <label for="iest">Estado: </label>
+            <select name="est" id="iest" required>
+                <option value="padrao" disabled selected>SELECIONE UM ESTADO</option>
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="ES">Espírito Santo</option>
+                </optgroup>
+                <optgroup label="Região Sul">
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="PR">Paraná</option>
+                </optgroup>
+                <optgroup label="Região Norte">
+                    <option value="PR">Paraíba</option>
+                    <option value="PR">Ceará</option>
+                    <option value="PR">Bahia</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="AM">Manaus</option>
+                    <option value="RR">Roraíma</option>
+                    <option value="AC">Acre</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="profissao" placeholder="Selecione ou Digite" required>
+            <datalist id="profissao">
+                <option>Contador</option>
+                <option>Encanador</option>
+                <option>Proteiro</option>
+                <option>Professor</option>
+                <option>Motorista</option>
+            </datalist>
+        </div>
+        <div>
+            <label for="imsg">Mensagem: </label>
+            <textarea style= "margin-top: 10px; display: block;" name="msg" id="imsg" cols="50" rows="10" placeholder="Digite sua mensagem aqui..."></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
