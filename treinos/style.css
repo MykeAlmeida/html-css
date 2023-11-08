@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    background: lightgrey url(treinos_modulo4/imagens/back-phone.jpg) no-repeat center;
+    background-size: cover;
+}
+
+main{
+    width: 400px;
+    margin: auto;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.479);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.308);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+img#tablet{display: none;}
+img#print{display: none;}
+img#pc{display: none;}
+img#tv{display: none;}
