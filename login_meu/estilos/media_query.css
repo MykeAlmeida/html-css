@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .all-content {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .all-content {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .all-content {
+        width: 750px;
+    }
+}
